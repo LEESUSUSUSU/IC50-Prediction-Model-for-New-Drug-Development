@@ -13,13 +13,12 @@
 
 ## 목차 (Table of Contents)
 1. [프로젝트 개요 (Project Overview)](#프로젝트-개요-project-overview)
-2. [포함된 파일 (Files Included)](#포함된-파일-files-included)
-3. [EDA 분석 결과 (EDA Results)](#eda-분석-결과-eda-results)
-4. [신경망 아키텍처 설명 (Neural Network Architecture Explanation)](#신경망-아키텍처-설명-neural-network-architecture-explanation)
+2. [EDA 분석 결과 (EDA Results)](#eda-분석-결과-eda-results)
+3. [신경망 아키텍처 설명 (Neural Network Architecture Explanation)](#신경망-아키텍처-설명-neural-network-architecture-explanation)
    - [모델 1: 약한 결합기 피처 기반](#모델-1-약한-결합기-피처-기반)
    - [모델 2: 강한 결합기 피처 기반](#모델-2-강한-결합기-피처-기반)
-5. [모델 성능 비교 (Model Performance Comparison)](#모델-성능-비교-model-performance-comparison)
-6. [참고 논문 (Reference Papers)](#참고-논문-reference-papers)
+4. [모델 성능 비교 (Model Performance Comparison)](#모델-성능-비교-model-performance-comparison)
+5. [참고 논문 (Reference Papers)](#참고-논문-reference-papers)
 
 ---
 
