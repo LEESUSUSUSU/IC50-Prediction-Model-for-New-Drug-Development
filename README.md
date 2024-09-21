@@ -70,7 +70,7 @@ EDA(탐색적 데이터 분석)를 통해 **데이터 불균형** 문제를 확�
   - 모델 2에서도 주로 **ReLU** 활성화 함수가 사용되었습니다. ReLU는 연산이 간단하고, 특히 깊은 신경망에서 **기울기 소실 문제**를 줄이는 데 효과적입니다.
   - **일부 층에서 Swish** 활성화 함수가 사용되었습니다. Swish는 음수 영역을 포함하여 더 복잡한 패턴을 학습할 수 있도록 돕습니다. Swish를 일부 층에서만 사용함으로써 계산 효율성과 복잡한 비선형성 학습 사이의 균형을 맞췄습니다.
 
-<img src="https://github.com/user-attachments/assets/4da271fe-42a4-4add-8585-9480f8747c31" alt="Model 2 Structure" width="200" height="500">
+<img src="https://github.com/user-attachments/assets/4da271fe-42a4-4add-8585-9480f8747c31" alt="Model 2 Structure" width="200" height="700">
 
 ### 신경망 아키텍처 이미지 설명
 - 아래그림은 신경망의 전체적인 구조를 나타냅니다. **입력층**, **은닉층**, 그리고 **출력층**으로 구성되며, 각 노드 간 연결을 통해 데이터가 흐르고 학습이 이루어집니다.
