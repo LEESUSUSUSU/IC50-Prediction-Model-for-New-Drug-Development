@@ -61,7 +61,7 @@ EDA(탐색적 데이터 분석)를 통해 **데이터 불균형** 문제를 확�
   - 모델 1에서는 **ReLU**(Rectified Linear Unit) 활성화 함수를 주로 사용했습니다. ReLU는 음수 입력을 0으로 만들고, 양수 입력은 그대로 출력하는 간단한 함수로, 신경망 학습의 효율성을 높이는 데 중요한 역할을 합니다.
   - **일부 층에서는 Swish 활성화 함수**가 사용되었습니다. Swish는 ReLU보다 더 복잡한 패턴을 학습할 수 있으며, 일부 층에서만 사용함으로써 모델의 계산 효율성을 높이면서도 더 정교한 패턴을 학습할 수 있습니다.
 
-<img src="https://github.com/user-attachments/assets/93836bde-095c-43a7-bbaa-2355f3d4a1dd" alt="Model 1 Structure" width="300" height="200">
+<img src="https://github.com/user-attachments/assets/93836bde-095c-43a7-bbaa-2355f3d4a1dd" alt="Model 1 Structure" width="200" height="400">
 
 ### 모델 2: 강한 결합기 피처 기반
 - **강한 결합기 피처**는 **TPSA**, **NumRotatableBonds**, **NumAromaticRings**, **MolWt**, **MolWt_HBDonors**, **MolWt_HBAcceptors**, **SASA** 등과 같은 물리적 특성으로, 화합물의 **강한 결합 특성**을 설명합니다.
@@ -70,7 +70,7 @@ EDA(탐색적 데이터 분석)를 통해 **데이터 불균형** 문제를 확�
   - 모델 2에서도 주로 **ReLU** 활성화 함수가 사용되었습니다. ReLU는 연산이 간단하고, 특히 깊은 신경망에서 **기울기 소실 문제**를 줄이는 데 효과적입니다.
   - **일부 층에서 Swish** 활성화 함수가 사용되었습니다. Swish는 음수 영역을 포함하여 더 복잡한 패턴을 학습할 수 있도록 돕습니다. Swish를 일부 층에서만 사용함으로써 계산 효율성과 복잡한 비선형성 학습 사이의 균형을 맞췄습니다.
 
-<img src="https://github.com/user-attachments/assets/4da271fe-42a4-4add-8585-9480f8747c31" alt="Model 2 Structure" width="300" height="200">
+<img src="https://github.com/user-attachments/assets/4da271fe-42a4-4add-8585-9480f8747c31" alt="Model 2 Structure" width="200" height="400">
 
 ### 신경망 아키텍처 이미지 설명
 - 아래그림은 신경망의 전체적인 구조를 나타냅니다. **입력층**, **은닉층**, 그리고 **출력층**으로 구성되며, 각 노드 간 연결을 통해 데이터가 흐르고 학습이 이루어집니다.
