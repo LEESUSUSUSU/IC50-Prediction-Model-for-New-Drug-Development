@@ -38,7 +38,7 @@ EDA(탐색적 데이터 분석)를 통해 **데이터 불균형** 문제를 확�
    - **약한 결합기 피처**와 **강한 결합기 피처**를 각각 활용하여 두 가지 모델을 학습한 후, **앙상블 모델**을 사용함으로써 데이터 불균형 문제를 극복할 수 있었습니다.
    - 이 두 모델은 서로 다른 피처를 사용하여 데이터를 보완하고, 앙상블을 통해 더 나은 성능을 보여주었습니다.
   
-   ![Distribution of pIC50 Values](https://github.com/user-attachments/assets/37f5947b-1b10-46e7-9499-7f83a37dfef7)
+   ![Distribution of pIC50 Values](https://github.com/user-attachments/assets/37f5947b-1b10-46e7-9499-7f83a37dfef7){: width="300" height="200"}
 
 ---
 
@@ -96,19 +96,19 @@ EDA(탐색적 데이터 분석)를 통해 **데이터 불균형** 문제를 확�
 
 - **Backpropagation Applied to Handwritten Zip Code Recognition** - Yann LeCun et al. (1989)
    - 역전파 알고리즘을 활용한 신경망 학습에 대한 설명.
-   - [논문 링크 (Paper Link)](http://yann.lecun.com/exdb/publis/pdf/lecun-89e.pdf){: width="300" height="200"}
+   - [논문 링크 (Paper Link)](http://yann.lecun.com/exdb/publis/pdf/lecun-89e.pdf)
 
 - **Rectified Linear Units Improve Restricted Boltzmann Machines** - Vinod Nair, Geoffrey E. Hinton (2010)
    - ReLU 활성화 함수의 사용과 그 효과에 대한 논문.
-   - [논문 링크 (Paper Link)](https://www.cs.toronto.edu/~hinton/absps/reluICML.pdf){: width="300" height="200"}
+   - [논문 링크 (Paper Link)](https://www.cs.toronto.edu/~hinton/absps/reluICML.pdf)
 
 - **Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift** - Sergey Ioffe, Christian Szegedy (2015)
    - 배치 정규화(Batch Normalization)의 개념과 효과를 설명한 논문.
-   - [논문 링크 (Paper Link)](https://arxiv.org/pdf/1502.03167.pdf){: width="300" height="200"}
+   - [논문 링크 (Paper Link)](https://arxiv.org/pdf/1502.03167.pdf)
 
 - **The Elements of Statistical Learning: Data Mining, Inference, and Prediction** - Trevor Hastie, Robert Tibshirani, Jerome Friedman (2009)
    - 피처 선택과 과적합 방지에 관한 중요한 내용이 포함된 책.
-   - [논문 링크 (Paper Link)](https://web.stanford.edu/~hastie/ElemStatLearn/){: width="300" height="200"}
+   - [논문 링크 (Paper Link)](https://web.stanford.edu/~hastie/ElemStatLearn/)
 
 ---
 
