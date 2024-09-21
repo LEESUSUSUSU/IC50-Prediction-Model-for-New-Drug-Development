@@ -38,7 +38,7 @@ EDA(탐색적 데이터 분석)를 통해 **데이터 불균형** 문제를 확�
    - **약한 결합기 피처**와 **강한 결합기 피처**를 각각 활용하여 두 가지 모델을 학습한 후, **앙상블 모델**을 사용함으로써 데이터 불균형 문제를 극복할 수 있었습니다.
    - 이 두 모델은 서로 다른 피처를 사용하여 데이터를 보완하고, 앙상블을 통해 더 나은 성능을 보여주었습니다.
   
-   ![Distribution of pIC50 Values](https://github.com/user-attachments/assets/37f5947b-1b10-46e7-9499-7f83a37dfef7){: width="300" height="200"}
+<img src="https://github.com/user-attachments/assets/37f5947b-1b10-46e7-9499-7f83a37dfef7" alt="Distribution of pIC50 Values" width="300" height="200">
 
 ---
 
